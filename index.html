@@ -1,19 +1,88 @@
 <!DOCTYPE html>
 <html>
 
+
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>Propuesta NIC</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
-    </head>
 
+    <style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header {
+        background-color: #5F2A9B;
+        padding: 1px;
+        text-align: center;
+        font-size: 35px;
+        color: rgb(255, 255, 255);
+    }
+
+      nav {
+        float: left;
+        width: 50%;
+        height: 5%;
+        background: rgb(235, 235, 235);
+        padding: 0.5% 10%;
+    }
+
+        nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    article {
+        float: left;
+        padding: 20px;
+        width: 50%;
+        background-color: #ffffff;
+    }
+    </style>
+    
+
+    </head>
+    
+    
     <body>
-        <script src="script.js"></script>
-        <p class="titulo">Tu nombre de dominio podría ser...</p>
-        <input type="text" id="searchName" placeholder="Ingrese palabra" name="search">
-        <button onclick="generateDomain();">Generar nombres</button>
+
+    <script src="script.js"></script>
+    
+    <header>
+        <style>
+            /* This style sets the width of all images to 100%: */
+            img {
+            width: 100%;
+            }
+        </style>
+            <center><img src="Akky_Main.png" alt="Main Page"></center>
+    </header>
+    
+    <center><p style="font-size:70%;"><b>Válido del 1 al 31 de Octubre de 2022.</b></p></center>
+    <section>
+        <nav>
+            <ul>
+                <li style="color:#418f81; font-size:120%;"><b>El nombre de tu negocio</b></li>
+                <li style="font-size:120%;"><b>empieza aqui</b></li>
+                <li style="font-size:90%;">Coloca tu nombre o el de tu negocio, idea o proyecto en internet.</li>
+            </ul>
+        </nav>
+    </section>
+
+
+    <p class="titulo">Tu nombre de dominio podría ser...</p>
+    <input type="text" id="searchName" placeholder="Encuentra tu dominio ideal" name="search">
+        <button onclick="generateDomain();">Buscar</button>
+    <article>
         <div id="listaDominios"></div>
+    </article>
+    <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
     </body>
 
 </html>
