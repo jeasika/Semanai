@@ -1,7 +1,7 @@
 let data = ["prolace.net", "cardiotrace.lat", "friomaya.net", "idiomachino.net", "upc.lat", "protege.lat", "maceta.lat", "colegioolinca.net", "renta.lat", "copyfunnels.lat", "neuroalimentacion.net", "dondever.net", "evolitivo.cc", "hayashi.lat", "dobot.lat", "soulzenter.lat", "endemika.lat", "dolartrac.cc", "intelissarh.lat", "e-watch.tv", "gsb.lat", "matribu.lat", "consumibles.lat", "estrasol.lat", "laticinio.lat", "flores.lat", "terramarusa.cc", "cotailor.net", "enrecluta.net", "luliloopsy.lat", "tutarjeta.lat", "torrechapultepec.net", "smartbike.tv", "henequeneros.cc", "nog.lat", "mercadoabierto.net", "intercamseguros.lat", "pricetravel.lat", "skipware.net", "tutiendaenred.net"];
 let extension = [".com.mx", ".lat", ".org.mx", ".net", ".cc", ".tv"];
 let adjetives = ["happy", "very", "best", "cool", "epic"];
-let extensionForAdjetives = [".com", ".mx"];
+let extensionForAdjetives = [".com", ".mx", ".com.mx"];
 
 //Function to validate words
 function available(word){
